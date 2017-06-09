@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/awebsome/products/models/product/fields.yaml
+
+# Model Class name
+modelClass: Awebsome\Products\Models\Product
+
+# Default redirect location
+defaultRedirect: awebsome/products/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: awebsome/products/products/update/:id
+    redirectClose: awebsome/products/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: awebsome/products/products
+    redirectClose: awebsome/products/products
+
+# Preview page
+preview:
+    title: Preview Product

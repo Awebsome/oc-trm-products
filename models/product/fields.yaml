@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    salesforce_id:
+        label: salesforce_id
+    name:
+        label: name
+    gallery:
+        label: Gallery
+        type: recordfinder
+        list: $/raviraj/rjgallery/models/gallery/columns.yaml
+        prompt: Click the %s button to find a gallery
+        nameFrom: name
+        descriptionFrom: description

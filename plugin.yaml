@@ -1,0 +1,16 @@
+plugin:
+    name: 'awebsome.products::lang.plugin.name'
+    description: 'awebsome.products::lang.plugin.description'
+    author: LucasZdv
+    icon: oc-icon-briefcase
+    homepage: ''
+navigation:
+    trmproducts:
+        label: 'awebsome.products::lang.plugin.name'
+        url: awebsome/products/products
+        icon: icon-briefcase
+        sideMenu:
+            products:
+                label: 'awebsome.products::lang.plugin.name'
+                url: awebsome/products/products
+                icon: icon-briefcase

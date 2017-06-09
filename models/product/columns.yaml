@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: name
+    feature1:
+        label: Feature 1
+    feature2:
+        label: Feature 2
+    feature3:
+        label: Feature 3
+    feature4:
+        label: Feature 4
+    feature5:
+        label: Feature 5

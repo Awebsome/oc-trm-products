@@ -4,10 +4,15 @@
 
 fields:
     salesforce_id:
-        label: salesforce_id
+        label: awebsome.products::lang.label.salesforce_id
+        span: left
+        disabled: true
     name:
-        label: name
+        label: awebsome.products::lang.label.name
+        span: right
+        disabled: true
     gallery:
+        span: left
         label: Gallery
         type: recordfinder
         list: $/raviraj/rjgallery/models/gallery/columns.yaml

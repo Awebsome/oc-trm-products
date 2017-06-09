@@ -22,7 +22,6 @@ class Product extends Model
      */
     protected $fillable = [];
 
-    protected $jsonable = ['questions','features','benefits'];
 
     /**
      * @var array Relations
@@ -30,11 +29,9 @@ class Product extends Model
     public $hasOne = [];
     public $hasMany = [];
     public $belongsTo = [
-      'category' => [
-           '{/}raviraj/rjgallery/models$',
-           'scope' => 'isActive'
-       ]
+        'gallery' => 'Raviraj\Rjgallery\Models\Gallery'
     ];
+
     public $belongsToMany = [];
     public $morphTo = [];
     public $morphOne = [];

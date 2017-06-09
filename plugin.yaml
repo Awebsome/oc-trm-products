@@ -5,12 +5,20 @@ plugin:
     icon: oc-icon-briefcase
     homepage: ''
 navigation:
-    trmproducts:
+    products:
         label: 'awebsome.products::lang.plugin.name'
         url: awebsome/products/products
         icon: icon-briefcase
+        permissions:
+            - awebsome.products.products
         sideMenu:
             products:
                 label: 'awebsome.products::lang.plugin.name'
                 url: awebsome/products/products
                 icon: icon-briefcase
+                permissions:
+                    - awebsome.products.products
+permissions:
+    awebsome.products.products:
+        tab: 'awebsome.products::lang.plugin.name'
+        label: 'Can Manage Products'

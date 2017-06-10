@@ -13,8 +13,10 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('salesforce_id')->nullable();
             $table->integer('gallery_id')->nullable();
+            $table->integer('before_after_id')->nullable();
 
             $table->string('name');
+            $table->string('title');
 
             $table->longText('feature1')->nullable();
             $table->longText('feature2')->nullable();

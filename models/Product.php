@@ -7,6 +7,8 @@ use Model;
  */
 class Product extends Model
 {
+    use \October\Rain\Database\Traits\Validation;
+
     /**
      * @var string The database table used by the model.
      */
@@ -22,6 +24,14 @@ class Product extends Model
      */
     protected $fillable = [];
 
+    /**
+     * @var array Validation rules
+     */
+    protected $rules = [
+      'name' => 'required',
+      'title' => 'required',
+      'salesforce_id' => 'required|unique:awebsome_products_products',
+    ];
 
     /**
      * @var array Relations

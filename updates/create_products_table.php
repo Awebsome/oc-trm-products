@@ -16,7 +16,7 @@ class CreateProductsTable extends Migration
             $table->integer('before_after_id')->nullable();
 
             $table->string('name');
-            $table->string('title');
+            $table->string('title')->nullable();
 
             $table->longText('feature1')->nullable();
             $table->longText('feature2')->nullable();

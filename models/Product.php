@@ -29,7 +29,6 @@ class Product extends Model
      */
     protected $rules = [
       'name' => 'required',
-      'title' => 'required',
       'salesforce_id' => 'required|unique:awebsome_products_products',
     ];
 

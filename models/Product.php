@@ -38,7 +38,8 @@ class Product extends Model
     public $hasOne = [];
     public $hasMany = [];
     public $belongsTo = [
-        'gallery' => 'Raviraj\Rjgallery\Models\Gallery'
+        'gallery' => 'Raviraj\Rjgallery\Models\Gallery',
+        'gallery_bf' => ['Raviraj\Rjgallery\Models\Gallery', 'key'=> 'before_after_id'],
     ];
 
     public $belongsToMany = [];

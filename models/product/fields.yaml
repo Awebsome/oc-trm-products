@@ -13,7 +13,15 @@ fields:
         disabled: true
     gallery:
         span: left
-        label: Gallery
+        label: Gallery Slider
+        type: recordfinder
+        list: $/raviraj/rjgallery/models/gallery/columns.yaml
+        prompt: Click the %s button to find a gallery
+        nameFrom: name
+        descriptionFrom: description
+    gallery_bf:
+        span: left
+        label: Gallery - Before After
         type: recordfinder
         list: $/raviraj/rjgallery/models/gallery/columns.yaml
         prompt: Click the %s button to find a gallery

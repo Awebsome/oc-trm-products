@@ -6,6 +6,13 @@ use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
 {
+    /**
+     * @var array Plugin dependencies
+     */
+    public $require = [
+        'Awebsome.Crm'
+    ];
+
     public function boot(){
         Event::listen('backend.menu.extendItems', function($manager) {
 

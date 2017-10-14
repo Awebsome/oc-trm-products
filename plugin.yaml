@@ -4,20 +4,7 @@ plugin:
     author: LucasZdv
     icon: oc-icon-briefcase
     homepage: ''
-navigation:
-    products:
-        label: 'awebsome.products::lang.plugin.name'
-        url: awebsome/products/products
-        icon: icon-briefcase
-        permissions:
-            - awebsome.products.products
-        sideMenu:
-            products:
-                label: 'awebsome.products::lang.plugin.name'
-                url: awebsome/products/products
-                icon: icon-briefcase
-                permissions:
-                    - awebsome.products.products
+
 permissions:
     awebsome.products.products:
         tab: 'awebsome.products::lang.plugin.name'

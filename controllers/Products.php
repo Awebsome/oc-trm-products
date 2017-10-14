@@ -20,6 +20,6 @@ class Products extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Awebsome.Products', 'products', 'products');
+        BackendMenu::setContext('Awebsome.Crm', 'crm', 'products');
     }
 }
